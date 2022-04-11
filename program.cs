@@ -1,4 +1,4 @@
-namespace PlantShop
+namespace x
 {
     //main class
     class StoreFront
