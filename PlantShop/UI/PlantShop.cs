@@ -52,10 +52,11 @@ public class PlantShop
 
         //verify userName and Password to sign in user
         List<Customers> allCustomers = _bl.GetCustomers();
+
         foreach (Customers customer in allCustomers)
         {
             if (customer.Username == userName && customer.Password == password)
-            { 
+            {
                 //take to MainMenu
                 MainMenu mainmenu = new MainMenu();
                 mainmenu.Start();
@@ -99,7 +100,7 @@ public class PlantShop
         string? password = Console.ReadLine();
 
         //create new user in db
-       // new PSBL().CreateCustomer(newCustomer);
+        // new PSBL().CreateCustomer(newCustomer);
         Console.WriteLine("Your account has been created.");
 
         { //take to SignIn
