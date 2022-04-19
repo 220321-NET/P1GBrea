@@ -1,5 +1,5 @@
 #added files
-*/connectionString.txt
+connectionstring.txt
 */SQLQueries
 
 # Created by https://www.toptal.com/developers/gitignore/api/csharp,aspnetcore,visualstudio,visualstudiocode,windows
